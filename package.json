@@ -4,16 +4,22 @@
   "description": "This is to practise Typescript by making blockchain with it.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "tsc"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mireu-san/typescript-practise.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mireu-san/typescript-practise/issues"
   },
-  "homepage": "https://github.com/mireu-san/typescript-practise#readme"
+  "homepage": "https://github.com/mireu-san/typescript-practise#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
 }
