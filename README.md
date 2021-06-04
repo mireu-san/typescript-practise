@@ -31,3 +31,6 @@ To run after setting up all package.json as follows:
 
 So why do this step before doing Typescript (TS)?
 - Node.js cannot understand TS, so 'compile it' in JS.
+
+# For blockchain crypto-js
+https://www.npmjs.com/package/crypto-js
